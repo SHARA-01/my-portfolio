@@ -3,15 +3,15 @@ import { FaGraduationCap, MdOutlineWorkOutline } from '../components/iconsIndex'
 
 function Resume() {
     return (
-        <div className='bg-white w-full h-auto rounded-xl px-12 py-[4rem]'>
+        <div className='bg-white w-full h-auto rounded-xl lg:px-12 px-4 py-[4rem]'>
             <div className='flex items-center space-x-5'>
                 <span className='text-4xl font-bold font-roboto text-gray-700 ' >Resume</span>
                 <hr className='h-1 w-[12rem] bg-blue-400 rounded-md' />
             </div>
-            <ul className='flex flex-col my-5 py-5 space-y-5'>
+            <ul className='flex flex-col lg:my-5 py-5 space-y-5'>
                 <li>
-                    <ul className='flex'>
-                        <li className='w-1/2 flex flex-col'>
+                    <ul className='lg:flex space-y-3'>
+                        <li className='lg:w-1/2 flex flex-col'>
                             <ul className='flex flex-col space-y-5'>
                                 <li className='flex items-center  my-2'>
                                     <span className=' text-purple-500'>
@@ -45,7 +45,7 @@ function Resume() {
                                 </li>
                             </ul>
                         </li>
-                        <li className='w-1/2 mx-6 flex flex-col'>
+                        <li className='lgw-1/2 lg:mx-6 flex flex-col'>
                             <ul className='flex flex-col space-y-5'>
                                 <li className='flex items-center  my-2'>
                                     <span className=' text-purple-500'>
@@ -82,8 +82,8 @@ function Resume() {
                     </ul>
                 </li>
                 <li>
-                    <ul className='flex'>
-                        <li className='w-1/2 flex flex-col my-2'>
+                    <ul className='lg:flex space-y-5'>
+                        <li className='lg:w-1/2 flex flex-col my-2'>
                             <span className='flex text-left text-2xl text-gray-700 font-roboto font-bold'>
                                 Skills
                             </span>
@@ -121,7 +121,7 @@ function Resume() {
                                 </li>
                             </ul>
                         </li>
-                        <li className='w-1/2 flex flex-col my-2'>
+                        <li className='lg:w-1/2 flex flex-col my-2'>
                             <span className='flex text-left text-2xl text-gray-700 font-roboto font-bold'>
                                 Knowledges
                             </span>

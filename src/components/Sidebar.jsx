@@ -8,8 +8,8 @@ function Sidebar() {
     <>
       <div>
         <ul className='flex  flex-col space-y-4'>
-          <li className='w-[250px] -mt-[9rem] h-[250px] bg-blue-200 rounded-xl  mx-auto overflow-hidden object-cover' >
-            <img src={MyImag} alt="IMG" className=' w-[250px] mt-[rem] h-[300px] object-cover' />
+          <li className='w-[250px] lg:-mt-[9rem] mt-10 h-[250px] bg-blue-200 rounded-xl  mx-auto overflow-hidden object-cover' >
+            <img src='' alt="IMG" className=' w-[250px] mt-[rem] h-[300px] object-cover' />
           </li>
           <li className=' px-5 mx-auto' ><span className='text-3xl font-roboto font-semibold text-gray-700 '>Gulab Chand Meena</span></li>
           <li className=' px-5 mx-auto rounded-md  py-2 bg-gray-100' ><span className='font-semibold text-gray-700'>Full Stack Developer</span></li>
@@ -26,7 +26,7 @@ function Sidebar() {
               </li>
             </ul>
           </li>
-          <li className='w-[85%] mx-auto bg-gray-100 rounded-xl p-7' >
+          <li className='lg:w-[85%] w-[95%] mx-auto bg-gray-100 rounded-xl p-7' >
             <ul className='flex flex-col space-y-6'>
               <li className='flex justify-start'>
                 <span className='p-2 bg-white rounded-md text-pink-500 shadow-md mx-2'><HiOutlineDevicePhoneMobile size={28} /></span>
